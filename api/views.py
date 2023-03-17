@@ -8,8 +8,7 @@ from rest_framework.parsers import MultiPartParser
 
 
 class UploadCSV(APIView):
-    parser_classes = [MultiPartParser]
-    
+
     def post(self, request):
         csv_file = request.FILES['file']
         
