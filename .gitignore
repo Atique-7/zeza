@@ -1,0 +1,19 @@
+# Ignore virtual environment files
+env/
+*.pyc
+
+# Ignore Django database file
+db.sqlite3
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore local settings file
+settings/local.py
+
+# Ignore other files and directories
+__pycache__/
+*.egg-info/
+*.egg/
+*.log
